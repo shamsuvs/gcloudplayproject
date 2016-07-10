@@ -17,7 +17,7 @@ Copyright 2016 Google Inc. All Rights Reserved.
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn" %>
 <div class="container">
-  <h3>Book</h3>
+  <h3>Book Subiited by User</h3>
   <div class="btn-group">
     <a href="/update?id=${book.id}" class="btn btn-primary btn-sm">
       <i class="glyphicon glyphicon-edit"></i>
