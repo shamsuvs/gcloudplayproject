@@ -23,3 +23,14 @@ Managed VMs on Google Cloud Platform use the [Java Servlets](http://www.oracle.c
 * See [LICENSE](LICENSE)
 
 Java is a registered trademark of Oracle Corporation and/or its affiliates.
+
+git clone https://github.com/shamsuvs/gcloudplayproject.git
+
+
+mvn gcloud:deploy -Dgcloud.gcloud_directory=/Users/shamsudeen/Documents/Tools/google-cloud-sdk
+
+ mvn -Plocal clean jetty:run-exploded
+ 
+ export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_65.jdk/Contents/Home/
+ 
+ git push -u origin master
